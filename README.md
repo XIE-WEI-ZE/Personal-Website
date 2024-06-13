@@ -1,9 +1,7 @@
 Personal Web Portfolio
 Hi everyone!
 
-This is my personal website to showcase my skills and projects. If you're interested in what I'm doing, this is a great place to check out some of my work.
-
-About This Website
+This is my personal website to showcase my skills and projects. 
 This website includes the following sections:
 
 Home: A brief introduction about myself and my background.
