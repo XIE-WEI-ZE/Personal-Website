@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style/p_styles.css">
+    <link rel="stylesheet" href="./style/c_style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            XIE<span>WEI-ZE</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon" aria-label="Menu Icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skill">Skill</a>
+            <a href="#projects">Projects</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+        <button class="gradient-btn">Contact me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>WEI-ZE's Web</span></h1>
+            <h3>I'm a <span>Java Back-end developer</span></h3>
+            <p>
+                Programming Languages: Java (Spring Framework), Python<br>
+                Backend Technologies: RESTful API development, Microservices, Spring Boot<br>
+                Frontend Technologies: Vue.js, JavaScript<br>
+                Database Management: SQL Server, PostgreSQL<br>
+                Tools & Technologies: Git, GitHub, Docker, Jenkins<br>
+                Engineering Principles: OOP, Design Patterns, System Architecture
+            </p>
+            <div class="social-icons">
+                <a href="#"><img src="./images/social_img/github_icon.gif" alt="GitHub"></a>
+                <a href="#"><img src="./images/social_img/linkedin_icon.gif" alt="LinkedIn"></a>
+                <a href="#"><img src="./images/social_img/twitter_icon.gif" alt="Twitter"></a>
+                <a href="#"><img src="./images/social_img/ig_icon.gif" alt="Instagram"></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img"><img src="./images/大頭照.jpg" alt="Profile Picture"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/大頭照.jpg" alt="Profile Picture">
+        </div>
+        <div class="about-content">
+            <h2>About <span>me</span></h2>
+            <p>
+                I graduated from National Taiwan Ocean University with a major in Communication and Navigation Engineering (2019-2023). My background provides me with a solid understanding of complex technologies, which I now apply to software development, specifically in Java backend engineering.
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h2 class="heading">Skill</h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./images/java_icon.png" alt="Java">
+                    <h4>Java</h4>
+                    <p>
+                        I have completed various projects, and database management using SQL Server and PostgreSQL.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./images/github_icon.png" alt="Git">
+                    <h4>Git</h4>
+                    <p>
+                        I delved into Git and GitHub to manage my code efficiently.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./images/matlab_icon.png" alt="MATLAB">
+                    <h4>MATLAB</h4>
+                    <p>
+                        My proficiency in MATLAB allows me to efficiently analyze complex data sets, develop algorithms, and create detailed simulations.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./images/javascript_icon.png" alt="HTML/CSS/JS">
+                    <h4>HTML/CSS/JS</h4>
+                    <p>
+                        I have developed the ability to create simple, responsive web pages and add basic interactivity.
+                    </p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./images/sql-server_icon.png" alt="SQL Server">
+                    <h4>SQL Server</h4>
+                    <p>
+                        I gained proficiency in SQL Server through hands-on projects involving database design, query optimization, and data management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="projects-card">
+                <img src="./images/icons8-java-96.png" alt="Java Project">
+                <h3>First JDBC Project</h3>
+                <p>
+                    This project retrieves data from a specified URL, stores the data in a SQL Server database, and provides a range of functionalities to perform CRUD operations. Additionally, we implemented a feature to export the data to a CSV file, making it convenient for further data processing and analysis.
+                </p>
+                <div class="btn"><a href="https://github.com/XIE-WEI-ZE/First_JDBC_Project_in_iSpan.git">Review Project</a> </div>
+            </div>
+            <div class="projects-card">
+                <img src="./images/icons8-matlab-96.png" alt="MATLAB Project">
+                <h3>MATLAB CAPTCHA Recognition</h3>
+                <p>
+                    This project utilizes MATLAB to recognize CAPTCHA images. It involves preprocessing images to remove noise, segmenting characters, and applying machine learning algorithms to accurately identify the characters. It demonstrates MATLAB's capabilities in image processing and pattern recognition.
+                </p>
+                <div class="btn"><a href="https://github.com/XIE-WEI-ZE/Use-matlab-for-CAPTCHA-recognition..git">Review Project</a></div>
+            </div>
+            <div class="projects-card">
+                <img src="./images/javascript-color.png" alt="JavaScript Project">
+                <h3>Dynamic Timeline</h3>
+                <p>
+                    The timeline is designed to be responsive and user-friendly, with smooth scrolling and animated transitions that enhance the overall user experience.
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="projects-card">
+                <img src="./images/python-color.png" alt="Python Project">
+                <h3>COVID-19 Case Prediction</h3>
+                <p>
+                    This project focuses on predicting COVID-19 case numbers using data downloaded from Kaggle. In this implementation, we build a simple deep learning network in PyTorch, utilizing two fully-connected layers to perform regression analysis.
+                </p>
+                <div class="btn"><a href="https://docs.google.com/document/d/15zqWJYSOwnCJpjQiEupwKMM1A9wbkMQD/edit?usp=drive_link&ouid=114507968847446976291&rtpof=true&sd=true">Review Project</a></div>
+            </div>
+            <div class="projects-card">
+                <img src="./images/leetcode_color.png" alt="Python Project">
+                <h3>Leetcode</h3>
+                <p>
+                    I have honed my abilities to write efficient, clean, and optimized code.
+                </p>
+                <div class="btn"><a href="#">Review Project</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><img src="./images/social_img/github_icon.gif" alt="GitHub"></a>
+            <a href="#"><img src="./images/social_img/linkedin_icon.gif" alt="LinkedIn"></a>
+            <a href="#"><img src="./images/social_img/twitter_icon.gif" alt="Twitter"></a>
+            <a href="#"><img src="./images/social_img/ig_icon.gif" alt="Instagram"></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">版權維澤所有!</p>
+    </footer>
+    <script src="./js/p_script.js"></script>
+</body>
+</html>

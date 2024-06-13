@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #487eb0, #fbc531);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.txtb {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.task {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+.task:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.02);
+}
+
+.task i {
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.task i:hover {
+    color: #0073ff;
+}
+
+.comp .task {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}

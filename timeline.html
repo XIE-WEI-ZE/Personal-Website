@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間線練習</title>
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+    <div class="shell" id="shell">
+        <div class="header">
+            <h2 class="title">前端時間線練習</h2>
+            <h3 class="subtitle">獻給房東的貓</h3>
+        </div>
+        <div class="timeline">
+            <div class="item" data-text="<1>">
+                <div class="background" style="background-image: url('./images/往往.jpg');"></div>
+                <div class="content">
+                    <img src="./images/往往.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2023年整年</h2>
+                        <p class="content-desc">2023年初我從海大通訊畢業，陪家人化療同時準備研究所。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<2>">
+                <div class="background" style="background-image: url('./images/如常.jpg');"></div>
+                <div class="content">
+                    <img src="./images/如常.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2024年4月</h2>
+                        <p class="content-desc">雖然考試不盡理想，但家人恢復狀況良好，很幸運。月底參加資策會後端培訓。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<3>">
+                <div class="background" style="background-image: url('./images/所以來吧.jpg');"></div>
+                <div class="content">
+                    <img src="./images/所以來吧.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2024年5月</h2>
+                        <p class="content-desc">上完Java初階/進階跟SQL Server，被某銀行邀請面試結果因為第一次面試沒發揮好被電。月底其中專題發表，利用JDBC去完成資料庫串接，整體順利。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<4>">
+                <div class="background" style="background-image: url('./images/時間一過.jpg');"></div>
+                <div class="content">
+                    <img src="./images/時間一過.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2024年6月</h2>
+                        <p class="content-desc">專末專題分組完成，也選好題目，上完HTML/CSS跟JS前端三劍客，迎接第二次個人專題。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<5>">
+                <div class="background" style="background-image: url('./images/短囮.jpg');"></div>
+                <div class="content">
+                    <img src="./images/短囮.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2024年7月</h2>
+                        <p class="content-desc">未完待續。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<6>">
+                <div class="background" style="background-image: url('./images/雙下巴.jpg');"></div>
+                <div class="content">
+                    <img src="./images/雙下巴.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2024年8月</h2>
+                        <p class="content-desc">未完待續。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<7>">
+                <div class="background" style="background-image: url('./images/美好事物.jpg');"></div>
+                <div class="content">
+                    <img src="./images/美好事物.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">2024年9月</h2>
+                        <p class="content-desc">未完待續。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" data-text="<8>">
+                <div class="background" style="background-image: url('./images/閃光.jpg');"></div>
+                <div class="content">
+                    <img src="./images/閃光.jpg" alt="" class="img">
+                    <div class="text-box">
+                        <h2 class="content-title">結訓以後</h2>
+                        <p class="content-desc">未完待續。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.timeline').timeline();
+        });
+    </script>
+</body>
+</html>
